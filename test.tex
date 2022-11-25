@@ -1,0 +1,162 @@
+
+\documentclass[12pt]{article}
+\usepackage[a4paper, total={6in, 8in}]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{hyperref}
+\usepackage{listings}
+
+\newcommand\myshade{85}
+\colorlet{mylinkcolor}{violet}
+\colorlet{mycitecolor}{YellowOrange}
+\colorlet{myurlcolor}{Aquamarine}
+
+\hypersetup{
+  linkcolor  = mylinkcolor!\myshade!black,
+  citecolor  = mycitecolor!\myshade!black,
+  urlcolor   = myurlcolor!\myshade!black,
+  colorlinks = true,
+}
+\author{}
+\begin{document}
+\title{You Can Play 20 Questions with Nature and Win : Notes}
+\maketitle{}
+
+\begin{itemize}
+
+\item Original Author of paper : Stephen M. Kosslyn
+\end{itemize}
+
+\section{Intro}
+
+\begin{itemize}
+
+\item Alan Newell famously asserted that "You can't play 20 questions with nature and win" (Newell, A. (1973)
+\end{itemize}
+
+\section{Drawing Distinctions Within Processing Systems}
+
+\begin{itemize}
+
+\item fundamental problem with most (if not all) of the binary distinctions that Newell railed against
+\item distinctions were formulated independently of concerns about how the putative representations or processes would operate within the context of a more general processing system
+\end{itemize}
+
+\subsection{Divide-and-conquer}
+
+\begin{itemize}
+
+\item complex tasks never are accomplished by a single process, all in one swoop
+\end{itemize}
+
+\subsection{Weak Modularity}
+
+The brain has numerous specialized systems
+\begin{itemize}
+
+\item But these systems are not "modules" of the sort proposed by Fodor (1983).
+\item Fodor's modules are independent, in the sense that the workings of one cannot affect the inner workings of another
+\item However, given the nature of the neuroanatomy of the brain, we are better off conceptualizing processing in terms of neural networks— which may share some cortex and some types of processing.
+\item Moreover, we should expect "leakage" between these systems. Aspects of a theory of high-level vision
+\item Kosslyn \&amp; Koenig, 1992)
+\end{itemize}
+
+\section{Aspects of High Level Vision}
+
+\subsection{Visual Buffer}
+
+\begin{itemize}
+
+\item visual input during perception is organized in a series of brain areas in the occipital lobe, which I have grouped into a single function structure called the visual buffer
+\item These areas are topographically organized, such that the pattern of activation over the surface of the cortex (roughly) preserves the pattern of activation on the retina.
+\item Most of the connections among neurons in these areas are short and inhibitory
+\item The output from the visual buffer is a representation of edges and regions of an object
+\end{itemize}
+
+\subsection{Object Properties Processing System}
+
+\begin{itemize}
+
+\item Output from the visual buffer flows into the ventral system, where it is compared to stored visual memories
+\item If a match is found, the object (or part of an object) is recognized. Spatial properties processing system
+\item Output from the visual buffer also flows into the dorsal system, where location and other spatial properties are computed.
+\end{itemize}
+
+\subsection{Long-term Associative Memory}
+
+\begin{itemize}
+
+\item The outputs from the object properties processing and spatial properties processing systems converge on long-term associative memories
+\item Such memories specify the spatial relations among objects or parts of objects. A problem in vision and a possible solution
+\item The distinction between the ventral and dorsal systems makes sense from the perspective of the two principles briefly outlined earlier, divide-and-conquer and weak modularity
+\item How can the visual system identify objects when they can project an almost infinite number of images?
+\item no new parts are added to the image when the object is contorted in its many and varied ways, although some parts may be occluded
+\item Thus, if a sufficient number of individual parts can be recognized, this is a strong indication that a specific object is present
+\item the spatial relations between parts remain constant if they are described in a relatively abstract way
+\end{itemize}
+
+\subsection{Categorical Spatial Relation}
+
+\begin{itemize}
+
+\item A category is an equivalence class; for instance, if you hold one hand next to the other, the first will remain left or right of the second no matter how high, low, or far away it is from the other hand. Once assigned to the category, the spatial relations are treated as equivalent, with any differences (e.g. between a bent versus outstretched arm) ignored.
+\item However, the dorsal system cannot compute only categorical spatial relations representations.
+\item Such representations are useless for another key role of the dorsal system, namely reaching and navigation
+\item Knowing that a table is "in front of" you (a categorical spatial relation) will not help you walk around it, or pull your chair up to it
+\item In these cases you need precise metric information, and you need such
+\item information relative to your body, a part of your body, or relative to another object that serves as an "origin"
+\end{itemize}
+
+\subsection{Coordinate Spatial Relation}
+
+\begin{itemize}
+
+\item categorical spatial relations representations typically can be captured by a word or two, and the left cerebral hemisphere is better than the right at such processing
+\item coordinate spatial relations representations are essential for navigation, and the right cerebral hemisphere is better than the left at such processing
+\item In short, here is an example of a situation where 20 questions seems to be working
+\item At the first cut, we divided the entire system into two coarsely defined subsystems, distinguishing between the object-properties-processing ventral system and the spatial-properties-processing dorsal system
+\item At the second cut, we focused on the dorsal system, and now divided it into two more finely characterized subsystems, which compute categorical versus coordinate spatial relations representations.
+\end{itemize}
+
+\section{Levels of Analysis}
+
+\begin{itemize}
+
+\item based largely on that of Marr (1982), but adapted in various ways to be more appropriate for cognitive processing rather than vision per se
+\item a fundamental characteristic of a theory of a processing system is that it begins with an analysis of the task to be accomplished
+\item The theory of the computation can be conceptualized as specifying a black box, which takes a specific input and produces a specific output; this output in turn is used as input to yet other processes.
+\item According to Marr, whereas a theory of the computation describes what is computed, a theory of the algorithm specifies how it is computed.
+\item An algorithm consists of a step-by-step procedure that guarantees that a certain output will be produced on the basis of a certain input.
+\item Finally, algorithms are implemented in hardware (on a computer) or "wetware" (in a brain)
+\item The level of the implementation specifies how an algorithm is physically realized
+\item This observation seems particularly relevant to the encoding and use of spatial relations representations (e.g. Baciu et al., 1999; Kosslyn et al., 1998).
+\item Interdependence among levels
+\item Marr sometimes wrote as if a theory at one level of analysis could be formulated with only weak links to theories at the other levels.
+\item However, computations rely on algorithms, and those algorithms have to operate in
+\item a brain that does some things well and other things not so well
+\item In addition, as evolution progressed, older parts of the brain often were relatively preserved—new areas were added, but the old ones rarely were redesigned from scratch.
+\item Thus, the newer portions had to work with the older ones, which may not have been optimal for the final product (cf. Allman, 1999).
+\item characteristics at each of the levels of analysis affect theorizing at the other levels— and hence a powerful approach to theorizing about cognition requires that all three levels of analysis be considered at the same time.
+\item At the level of the algorithm, conceptualizing processing within the context of the larger system played a central role; the fact that object properties and spatial properties are processed separately provided a key constraint on the theory of what is computed and how such computation proceeds
+\item the idea that the two cerebral hemispheres would differ for the two kinds of processing not only helps to specify the nature of the representations and processes, but also offers one way to test the hypothesis.
+\item Leveraging multi-level theories
+\end{itemize}
+
+\section{Why is it Important That Scientists Be Able to Play 20 Questions with Nature and Win?}
+
+\begin{itemize}
+
+\item One reason is simple: cognitive processing is extraordinarily complex, and we must find ways to gain traction in studying it.
+\item I argue that multi-level theories, which bridge from information processing to the brain, should play a special role in playing the science game of 20 questions.
+\item First, they lead researchers to collect different sorts of data.
+\item when theorizing on the basis of such varied types of data, there are more constraints on the theory.
+\item Moreover, multi-level theories must respect qualitatively different sorts of constraints simultaneously
+\item Perhaps paradoxically, the more constraints that are available the easier it is to theorize, even though it is more difficult to fit all the constraints together within a common framework
+\item Newell was troubled not simply by the failure of most binary distinctions to lead to fruitful research, but also by the lack of accumulation of such results.
+\item He had the sense that research was not accumulating to paint a coherent overall picture, but instead isolated fragments of knowledge were being collected.
+\item The brain is, after all, a single organ.
+\end{itemize}
+\end{document}
